@@ -1,9 +1,12 @@
-
+import Image from 'next/image'
 
 export default function Home (){
 return (
     <div>
-     <img src="../../assets/img/demos/mi2.jpg" srcSet="../../assets/img/demos/mi2@2x.jpg 2x" alt=""/>   
+     <Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi2.jpg" srcSet="/assets
+     /img/demos/mi2@2x.jpg 2x" alt=""/>   
 
   <div className="content-wrapper">
     <header className="wrapper bg-light">
@@ -28,7 +31,10 @@ return (
         <div className="container flex-lg-row flex-nowrap align-items-center">
           <div className="navbar-brand w-100">
             <a href="./index.html">
-              <img src="../../assets/img/logo.png" srcSet="../../assets/img/logo@2x.png 2x" alt="" />
+              <Image   width={400}  height={200}
+      src="/assets
+     /img/logo.png" srcSet="/assets
+     /img/logo@2x.png 2x" alt="" />
             </a>
           </div>
           <div className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -44,112 +50,194 @@ return (
                     <li className="mega-menu-content mega-menu-scroll">
                       <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
                         <li className="col"><a className="dropdown-item" href="./demo1.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi1.jpg" srcSet="../../assets/img/demos/mi1@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi1.jpg" srcSet="/assets
+     /img/demos/mi1@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo I</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo2.html">
                             <figure className="rounded lift d-none d-lg-block">
-                                <img src="../../assets/img/demos/mi2.jpg" srcSet="../../assets/img/demos/mi2@2x.jpg 2x" alt=""/></figure>
+                                <Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi2.jpg" srcSet="/assets
+     /img/demos/mi2@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo II</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo3.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi3.jpg" srcSet="../../assets/img/demos/mi3@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block">
+                                <Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi3.jpg" srcSet="/assets
+     /img/demos/mi3@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo III</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo4.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi4.jpg" srcSet="../../assets/img/demos/mi4@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi4.jpg" srcSet="/assets
+     /img/demos/mi4@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo IV</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo5.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi5.jpg" srcSet="../../assets/img/demos/mi5@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi5.jpg" srcSet="/assets
+     /img/demos/mi5@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo V</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo6.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi6.jpg" srcSet="../../assets/img/demos/mi6@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi6.jpg" srcSet="/assets
+     /img/demos/mi6@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo VI</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo7.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi7.jpg" srcSet="../../assets/img/demos/mi7@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi7.jpg" srcSet="/assets
+     /img/demos/mi7@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo VII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo8.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi8.jpg" srcSet="../../assets/img/demos/mi8@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi8.jpg" srcSet="/assets
+     /img/demos/mi8@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo VIII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo9.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi9.jpg" srcSet="../../assets/img/demos/mi9@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi9.jpg" srcSet="/assets
+     /img/demos/mi9@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo IX</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo10.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi10.jpg" srcSet="../../assets/img/demos/mi10@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi10.jpg" srcSet="/assets
+     /img/demos/mi10@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo X</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo11.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi11.jpg" srcSet="../../assets/img/demos/mi11@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi11.jpg" srcSet="/assets
+     /img/demos/mi11@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XI</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo12.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi12.jpg" srcSet="../../assets/img/demos/mi12@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi12.jpg" srcSet="/assets
+     /img/demos/mi12@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo13.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi13.jpg" srcSet="../../assets/img/demos/mi13@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi13.jpg" srcSet="/assets
+     /img/demos/mi13@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XIII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo14.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi14.jpg" srcSet="../../assets/img/demos/mi14@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi14.jpg" srcSet="/assets
+     /img/demos/mi14@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XIV</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo15.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi15.jpg" srcSet="../../assets/img/demos/mi15@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi15.jpg" srcSet="/assets
+     /img/demos/mi15@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XV</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo16.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi16.jpg" srcSet="../../assets/img/demos/mi16@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi16.jpg" srcSet="/assets
+     /img/demos/mi16@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XVI</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo17.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi17.jpg" srcSet="../../assets/img/demos/mi17@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi17.jpg" srcSet="/assets
+     /img/demos/mi17@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XVII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo18.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi18.jpg" srcSet="../../assets/img/demos/mi18@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi18.jpg" srcSet="/assets
+     /img/demos/mi18@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XVIII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo19.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi19.jpg" srcSet="../../assets/img/demos/mi19@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi19.jpg" srcSet="/assets
+     /img/demos/mi19@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XIX</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo20.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi20.jpg" srcSet="../../assets/img/demos/mi20@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi20.jpg" srcSet="/assets
+     /img/demos/mi20@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XX</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo21.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi21.jpg" srcSet="../../assets/img/demos/mi21@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi21.jpg" srcSet="/assets
+     /img/demos/mi21@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XXI</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo22.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi22.jpg" srcSet="../../assets/img/demos/mi22@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi22.jpg" srcSet="/assets
+     /img/demos/mi22@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XXII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo23.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi23.jpg" srcSet="../../assets/img/demos/mi23@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi23.jpg" srcSet="/assets
+     /img/demos/mi23@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XXIII</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo24.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi24.jpg" srcSet="../../assets/img/demos/mi24@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi24.jpg" srcSet="/assets
+     /img/demos/mi24@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XXIV</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo25.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi25.jpg" srcSet="../../assets/img/demos/mi25@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi25.jpg" srcSet="/assets
+     /img/demos/mi25@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XXV</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo26.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi26.jpg" srcSet="../../assets/img/demos/mi26@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi26.jpg" srcSet="/assets
+     /img/demos/mi26@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XXVI</span>
                           </a></li>
                         <li className="col"><a className="dropdown-item" href="./demo27.html">
-                            <figure className="rounded lift d-none d-lg-block"><img src="../../assets/img/demos/mi27.jpg" srcSet="../../assets/img/demos/mi27@2x.jpg 2x" alt=""/></figure>
+                            <figure className="rounded lift d-none d-lg-block"><Image   width={400}  height={200}
+      src="/assets
+     /img/demos/mi27.jpg" srcSet="/assets
+     /img/demos/mi27@2x.jpg 2x" alt=""/></figure>
                             <span className="d-lg-none">Demo XXVII</span>
                           </a></li>
                       </ul>
@@ -262,87 +350,121 @@ return (
                     <li className="mega-menu-content">
                       <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/about.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block1.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block1.svg" alt=""/></div>
                             <span>About</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/blog.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block2.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block2.svg" alt=""/></div>
                             <span>Blog</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/call-to-action.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block3.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block3.svg" alt=""/></div>
                             <span>Call to Action</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/clients.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block4.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block4.svg" alt=""/></div>
                             <span>Clients</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/contact.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block5.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block5.svg" alt=""/></div>
                             <span>Contact</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/facts.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block6.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block6.svg" alt=""/></div>
                             <span>Facts</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/faq.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block7.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block7.svg" alt=""/></div>
                             <span>FAQ</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/features.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block8.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block8.svg" alt=""/></div>
                             <span>Features</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/footer.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block9.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block9.svg" alt=""/></div>
                             <span>Footer</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/hero.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block10.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block10.svg" alt=""/></div>
                             <span>Hero</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/misc.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block17.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block17.svg" alt=""/></div>
                             <span>Misc</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/navbar.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block11.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block11.svg" alt=""/></div>
                             <span>Navbar</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/portfolio.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block12.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block12.svg" alt=""/></div>
                             <span>Portfolio</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/pricing.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block13.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block13.svg" alt=""/></div>
                             <span>Pricing</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/process.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block14.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block14.svg" alt=""/></div>
                             <span>Process</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/team.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block15.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block15.svg" alt=""/></div>
                             <span>Team</span>
                           </a>
                         </li>
                         <li className="col"><a className="dropdown-item" href="./docs/blocks/testimonials.html">
-                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img className="rounded-0" src="../../assets/img/demos/block16.svg" alt=""/></div>
+                            <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><Image   width={400}  height={200}
+      className="rounded-0" src="/assets
+     /img/demos/block16.svg" alt=""/></div>
                             <span>Testimonials</span>
                           </a>
                         </li>
@@ -472,7 +594,10 @@ return (
           <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-1 position-relative order-lg-2" data-cue="zoomIn">
             <div className="shape bg-dot primary rellax w-17 h-19" data-rellax-speed="1" style={{top: '-1.7rem', left: '-1.5rem'}}></div>
             <div className="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style={{bottom: '-1.8rem', right: '-0.8rem', width:'85%', height: '90%'}}></div>
-            <figure className="rounded"><img src="../../assets/img/photos/about7.jpg" srcSet="../../assets/img/photos/about7@2x.jpg 2x" alt="" /></figure>
+            <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/about7.jpg" srcSet="/assets
+     /img/photos/about7@2x.jpg 2x" alt="" /></figure>
           </div>
           {/* {/*<!--/column -->*/} 
           <div className="col-lg-5 mt-lg-n10 text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="600">
@@ -489,27 +614,39 @@ return (
         <div className="px-lg-5 mb-14 mb-md-17">
           <div className="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
             <div className="col-4 col-md-2">
-              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="../../assets/img/brands/c1.png" alt="" /></figure>
+              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><Image   width={400}  height={200}
+      src="/assets
+     /img/brands/c1.png" alt="" /></figure>
             </div>
             {/* {/*<!--/column -->*/} 
             <div className="col-4 col-md-2">
-              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="../../assets/img/brands/c2.png" alt="" /></figure>
+              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><Image   width={400}  height={200}
+      src="/assets
+     /img/brands/c2.png" alt="" /></figure>
             </div>
             {/* {/*<!--/column -->*/} 
             <div className="col-4 col-md-2">
-              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="../../assets/img/brands/c3.png" alt="" /></figure>
+              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><Image   width={400}  height={200}
+      src="/assets
+     /img/brands/c3.png" alt="" /></figure>
             </div>
             {/* {/*<!--/column -->*/} 
             <div className="col-4 col-md-2">
-              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="../../assets/img/brands/c4.png" alt="" /></figure>
+              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><Image   width={400}  height={200}
+      src="/assets
+     /img/brands/c4.png" alt="" /></figure>
             </div>
             {/* {/*<!--/column -->*/} 
             <div className="col-4 col-md-2">
-              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="../../assets/img/brands/c5.png" alt="" /></figure>
+              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><Image   width={400}  height={200}
+      src="/assets
+     /img/brands/c5.png" alt="" /></figure>
             </div>
             {/* {/*<!--/column -->*/} 
             <div className="col-4 col-md-2">
-              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="../../assets/img/brands/c6.png" alt="" /></figure>
+              <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><Image   width={400}  height={200}
+      src="/assets
+     /img/brands/c6.png" alt="" /></figure>
             </div>
             {/* {/*<!--/column -->*/} 
           </div>
@@ -559,7 +696,10 @@ return (
           <div className="col-md-8 col-lg-6 position-relative">
             <div className="shape bg-line red rounded-circle rellax w-18 h-18" data-rellax-speed="1" style={{top: '-2.2rem', left: '-2.4rem'}}></div>
             <div className="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style={{bottom: '-1.8rem', right: '-1.5rem', width: '85%', height: '90%'}}></div>
-            <figure className="rounded"><img src="../../assets/img/photos/about9.jpg" srcSet="../../assets/img/photos/about9@2x.jpg 2x" alt="" /></figure>
+            <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/about9.jpg" srcSet="/assets
+     /img/photos/about9@2x.jpg 2x" alt="" /></figure>
           </div>
           {/*<!--/column -->*/}
           <div className="col-lg-5 col-xl-4 offset-lg-1">
@@ -611,31 +751,45 @@ return (
           <div className="swiper">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <figure className="rounded"><img src="../../assets/img/photos/pp10.jpg" alt="" /></figure>
+                <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/pp10.jpg" alt="" /></figure>
               </div>
               {/* <!--/.swiper-slide --> */}
               <div className="swiper-slide">
-                <figure className="rounded"><img src="../../assets/img/photos/pp11.jpg" alt="" /></figure>
+                <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/pp11.jpg" alt="" /></figure>
               </div>
               {/* <!--/.swiper-slide --> */}
               <div className="swiper-slide">
-                <figure className="rounded"><img src="../../assets/img/photos/pp12.jpg" alt="" /></figure>
+                <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/pp12.jpg" alt="" /></figure>
               </div>
               {/* <!--/.swiper-slide --> */}
               <div className="swiper-slide">
-                <figure className="rounded"><img src="../../assets/img/photos/pp13.jpg" alt="" /></figure>
+                <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/pp13.jpg" alt="" /></figure>
               </div>
               {/* <!--/.swiper-slide --> */}
               <div className="swiper-slide">
-                <figure className="rounded"><img src="../../assets/img/photos/pp14.jpg" alt="" /></figure>
+                <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/pp14.jpg" alt="" /></figure>
               </div>
               {/* <!--/.swiper-slide --> */}
               <div className="swiper-slide">
-                <figure className="rounded"><img src="../../assets/img/photos/pp15.jpg" alt="" /></figure>
+                <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/pp15.jpg" alt="" /></figure>
               </div>
               {/* <!--/.swiper-slide --> */}
               <div className="swiper-slide">
-                <figure className="rounded"><img src="../../assets/img/photos/pp16.jpg" alt="" /></figure>
+                <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/pp16.jpg" alt="" /></figure>
               </div>
               {/* <!--/.swiper-slide --> */}
             </div>
@@ -649,9 +803,13 @@ return (
       <div className="container">
         <div className="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-17 mb-lg-19">
           <div className="col-md-8 col-lg-6 position-relative">
-            <a href="../../assets/media/movie.mp4" className="btn btn-circle btn-primary btn-play ripple mx-auto mb-5 position-absolute" style={{top:'50%', left:' 50%', transform: 'translate(-50%,-50%)', zIndex:'3'}} data-glightbox><i className="icn-caret-right"></i></a>
+            <a href="/assets
+     /media/movie.mp4" className="btn btn-circle btn-primary btn-play ripple mx-auto mb-5 position-absolute" style={{top:'50%', left:' 50%', transform: 'translate(-50%,-50%)', zIndex:'3'}} data-glightbox><i className="icn-caret-right"></i></a>
             <div className="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style={{bottom: '-1.8rem', right: '-1.5rem', width: '85%', height: '90%'}}></div>
-            <figure className="rounded"><img src="../../assets/img/photos/about12.jpg" srcSet="../../assets/img/photos/about12@2x.jpg 2x" alt=""/></figure>
+            <figure className="rounded"><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/about12.jpg" srcSet="/assets
+     /img/photos/about12@2x.jpg 2x" alt=""/></figure>
           </div>
           {/*<!--/column -->*/}
           <div className="col-lg-5 offset-lg-1">
@@ -692,7 +850,10 @@ return (
               <div className="swiper">
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
-                    <img className="rounded-circle w-20 mx-auto mb-4" src="../../assets/img/avatars/t1.jpg" srcSet="../../assets/img/avatars/t1@2x.jpg 2x" alt="" />
+                    <Image   width={400}  height={200}
+      className="rounded-circle w-20 mx-auto mb-4" src="/assets
+     /img/avatars/t1.jpg" srcSet="/assets
+     /img/avatars/t1@2x.jpg 2x" alt="" />
                     <h4 className="mb-1">Cory Zamora</h4>
                     <div className="meta mb-2">Marketing Specialist</div>
                     <p className="mb-2">Etiam porta sem magna malesuada mollis.</p>
@@ -705,7 +866,10 @@ return (
                   </div>
                   {/* <!--/.swiper-slide --> */}
                   <div className="swiper-slide">
-                    <img className="rounded-circle w-20 mx-auto mb-4" src="../../assets/img/avatars/t2.jpg" srcSet="../../assets/img/avatars/t2@2x.jpg 2x" alt="" />
+                    <Image   width={400}  height={200}
+      className="rounded-circle w-20 mx-auto mb-4" src="/assets
+     /img/avatars/t2.jpg" srcSet="/assets
+     /img/avatars/t2@2x.jpg 2x" alt="" />
                     <h4 className="mb-1">Coriss Ambady</h4>
                     <div className="meta mb-2">Financial Analyst</div>
                     <p className="mb-2">Aenean eu leo quam. Pellentesque ornare lacinia.</p>
@@ -718,7 +882,10 @@ return (
                   </div>
                   {/* <!--/.swiper-slide --> */}
                   <div className="swiper-slide">
-                    <img className="rounded-circle w-20 mx-auto mb-4" src="../../assets/img/avatars/t3.jpg" srcSet="../../assets/img/avatars/t3@2x.jpg 2x" alt="" />
+                    <Image   width={400}  height={200}
+      className="rounded-circle w-20 mx-auto mb-4" src="/assets
+     /img/avatars/t3.jpg" srcSet="/assets
+     /img/avatars/t3@2x.jpg 2x" alt="" />
                     <h4 className="mb-1">Nikolas Brooten</h4>
                     <div className="meta mb-2">Sales Manager</div>
                     <p className="mb-2">Donec ornare elit quam porta gravida at eget.</p>
@@ -731,7 +898,10 @@ return (
                   </div>
                   {/* <!--/.swiper-slide --> */}
                   <div className="swiper-slide">
-                    <img className="rounded-circle w-20 mx-auto mb-4" src="../../assets/img/avatars/t4.jpg" srcSet="../../assets/img/avatars/t4@2x.jpg 2x" alt="" />
+                    <Image   width={400}  height={200}
+      className="rounded-circle w-20 mx-auto mb-4" src="/assets
+     /img/avatars/t4.jpg" srcSet="/assets
+     /img/avatars/t4@2x.jpg 2x" alt="" />
                     <h4 className="mb-1">Jackie Sanders</h4>
                     <div className="meta mb-2">Investment Planner</div>
                     <p className="mb-2">Nullam risus eget urna mollis ornare vel eu leo.</p>
@@ -744,7 +914,10 @@ return (
                   </div>
                   {/* <!--/.swiper-slide --> */}
                   <div className="swiper-slide">
-                    <img className="rounded-circle w-20 mx-auto mb-4" src="../../assets/img/avatars/t5.jpg" srcSet="../../assets/img/avatars/t5@2x.jpg 2x" alt="" />
+                    <Image   width={400}  height={200}
+      className="rounded-circle w-20 mx-auto mb-4" src="/assets
+     /img/avatars/t5.jpg" srcSet="/assets
+     /img/avatars/t5@2x.jpg 2x" alt="" />
                     <h4 className="mb-1">Tina Geller</h4>
                     <div className="meta mb-2">Assistant Buyer</div>
                     <p className="mb-2">Vivamus sagittis lacus vel augue laoreet rutrum.</p>
@@ -769,7 +942,10 @@ return (
         <div className="card bg-soft-primary">
           <div className="card-body p-md-10 py-xxl-16 position-relative">
             <div className="position-absolute d-none d-lg-block" style={{bottom:'0', left:'10%', width: '28%', zIndex:'2'}}>
-              <figure><img src="../../assets/img/photos/co2.png" srcSet="../../assets/img/photos/co2@2x.png 2x" alt=""/></figure>
+              <figure><Image   width={400}  height={200}
+      src="/assets
+     /img/photos/co2.png" srcSet="/assets
+     /img/photos/co2@2x.png 2x" alt=""/></figure>
             </div>
             <div className="row gx-md-0 gx-xl-12 text-center">
               <div className="col-lg-7 offset-lg-5 col-xl-6">
@@ -802,7 +978,10 @@ return (
       <div className="row gy-6 gy-lg-0">
         <div className="col-md-4 col-lg-3">
           <div className="widget">
-            <img className="mb-4" src="../../assets/img/logo-dark.png" srcSet="../../assets/img/logo-dark@2x.png 2x" alt="" />
+            <Image   width={400}  height={200}
+      className="mb-4" src="/assets
+     /img/logo-dark.png" srcSet="/assets
+     /img/logo-dark@2x.png 2x" alt="" />
             <p className="mb-4">© 2022 Sandbox. <br className="d-none d-lg-block" />All rights reserved.</p>
             <nav className="nav social ">
               <a href="/"><i className="uil uil-twitter"></i></a>
@@ -881,8 +1060,10 @@ return (
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
-  <script src="../../assets/js/plugins.js"></script>
-  <script src="../../assets/js/theme.js"></script>
+  <script src="/assets
+     /js/plugins.js"></script>
+  <script src="/assets
+     /js/theme.js"></script>
     </div>
 )
 }
