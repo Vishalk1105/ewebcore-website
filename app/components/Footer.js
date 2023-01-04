@@ -9,8 +9,8 @@ export const Footer =()=>{
           <div className="row gy-6 gy-lg-0">
             <div className="col-md-4 col-lg-3">
               <div className="widget">
-              <Image src="/logo1.jpg" width="134" height="31" ></Image>
-                <p className="mb-4">© 2022 Ewebcore Pvt. Ltd. <br className="d-none d-lg-block" />All rights reserved.</p>
+              <Image  src="/logo1.jpg" width="134" height="31" ></Image>
+                <p className="mb-4" style={{ marginTop: '15px' }} >© 2022 Ewebcore Pvt. Ltd. <br className="d-none d-lg-block"  />All rights reserved.</p>
                 <nav className="nav social ">
                   <a href="#"><i className="uil uil-twitter"></i></a>
                   <a href="#"><i className="uil uil-facebook-f"></i></a>
@@ -27,7 +27,7 @@ export const Footer =()=>{
               <div className="widget">
                 <h4 className="widget-title  mb-3">Get in Touch</h4>
                 <address className="pe-xl-15 pe-xxl-17">2402, G-Square Business Park, Vashi, Navi Mumbai, Maharashtra,  India</address>
-                <a href="/cdn-cgi/l/email-protection#1c75727a735c796b797e7f736e7932727968" className="link-body"><span className="__cf_email__" data-cfemail="2940474f46694c5e4c4b4a465b4c07474c5d">[email&#160;protected]</span></a><br /> +91-22-49232326
+                <a href="/cdn-cgi/l/email-protection#1c75727a735c796b797e7f736e7932727968" className="link-body"><span className="__cf_email__" data-cfemail="2940474f46694c5e4c4b4a465b4c07474c5d">info@ewebcore.net</span></a><br /> +91-22-49232326
               </div>
               
             </div>
