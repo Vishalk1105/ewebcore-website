@@ -10,7 +10,7 @@ export default function Header() {
                     <div className="container flex-lg-row flex-nowrap align-items-center">
                         <div className="navbar-brand w-100">
                             <a href="/">
-                                <Image src="/logo1.jpg" width="250" height="59">
+                                <Image src="/logo1.jpg" width="1000" height="59">
 
                                 </Image>
                             </a>
