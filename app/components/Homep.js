@@ -3,7 +3,8 @@ import Image from "next/image"
 const Homep = () => {
     return (
       <div class="content-wrapper">
-
+      
+        
 <div class="image-1  position-relative">
           <div class="shape bg-dot primary rellax w-17 h-19" data-rellax-speed="1" style={{top: "-2.2rem" , left: "35.6rem"}}></div>
           <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style={{bottom: "-1.8rem"  , right: "1.5rem" , width: '405px' , height: "90%"}}></div>
