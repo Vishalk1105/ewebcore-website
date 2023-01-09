@@ -32,7 +32,7 @@ export default function Header() {
                                         <a className="nav-link " href="/career/" ><b>Services</b></a>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link " href="/about-us/" ><b>About us</b></a>
+                                        <a className="nav-link " href="/about/" ><b>About us</b></a>
                                     </li>
                                 </ul>
 

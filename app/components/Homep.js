@@ -5,9 +5,9 @@ const Homep = () => {
       <div class="content-wrapper">
 
 <div class="image-1  position-relative">
-          <div class="shape bg-dot primary rellax w-17 h-19" data-rellax-speed="1" style={{top: "-2.2rem" , left: "23.6rem"}}></div>
+          <div class="shape bg-dot primary rellax w-17 h-19" data-rellax-speed="1" style={{top: "-2.2rem" , left: "35.6rem"}}></div>
           <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style={{bottom: "-1.8rem"  , right: "1.5rem" , width: '405px' , height: "90%"}}></div>
-          <figure class="rounded"style={{width:'456px', marginLeft:'501px', marginTop:'80px'}}> <Image  src="/about7.jpg" width={1000} height={1} ></Image> </figure>
+          <figure class="rounded"style={{width:'456px', marginLeft:'745px', marginTop:'80px'}}> <Image  src="/about7.jpg" width={10000} height={1} ></Image> </figure>
         </div>
 
       <div className="Text-1" style={{ flex: '0 0 auto', width:' 41.66666667%', marginTop:'-400px', marginLeft:'38px'}}>
